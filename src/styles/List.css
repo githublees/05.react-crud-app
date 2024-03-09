@@ -1,0 +1,49 @@
+.list-container {
+  border: 1px solid lightgrey;
+  margin-bottom: 10px;
+  border-radius: 5px;
+
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+
+.list-container:hover {
+  transform: scale(1.02);
+  transition: transform 0.5s;
+}
+
+.items-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.items-name {
+  width: 200%;
+}
+
+.items-name > span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.items-cost {
+  width: 150%;
+}
+
+.items-cost > span {
+  font-size: 15px;
+  color: gray;
+}
+
+.items-controller {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.items-controller > button {
+  border: 0px;
+  background-color: white;
+  cursor: pointer;
+}
